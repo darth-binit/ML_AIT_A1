@@ -12,8 +12,11 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-brand_means = joblib.load('brand_means.pkl')
-best_pipeline = joblib.load('random_forest_model.pkl')
+brand_means_path = os.path.join(BASE_DIR, "brand_means.pkl")
+pipeline_path = os.path.join(BASE_DIR, "random_forest_model.pkl")
+
+brand_means = joblib.load(brand_means_path)
+best_pipeline = joblib.load(pipeline_path)
 
 data_file_path = os.path.join(BASE_DIR, "data/Out_287.csv")
 df = pd.read_csv(data_file_path)
