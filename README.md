@@ -1,5 +1,5 @@
 ## Streamlit Cloud Deployment 
-You can login to ```https://mlaita1-7vhm5vwxtrkjarfsmcne9q.streamlit.app``` to view this web application. Please refresh the page if any error occurs or else some charts don't load... 
+You can login to https://mlaita1-7vhm5vwxtrkjarfsmcne9q.streamlit.app to view this web application. Please refresh the page if any error occurs or else some charts don't load... 
 
 ## Through Docker 
 You can use the below command to pull the Docker image and run it on your local machine: machine
